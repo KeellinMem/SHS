@@ -2,8 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { LanguageToggle } from "@/components/language-toggle"
-import { Shield, Sword, BookOpen, Users } from "lucide-react"
-import Image from "next/image"
+import { Shield, BookOpen, Users } from "lucide-react"
 
 export function MainNav() {
   return (

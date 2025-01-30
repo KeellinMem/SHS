@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils"
 import { LanguageToggle } from "@/components/language-toggle"
 import { Toaster } from "@/components/ui/toaster"
 import Providers from "@/components/providers"
+import type React from "react" // Import React
 
 const fontSans = FontSans({
   subsets: ["latin"],

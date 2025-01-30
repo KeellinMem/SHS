@@ -1,15 +1,9 @@
 import { NextResponse } from "next/server"
 
-// Здесь должно быть подключение к вашей базе данных
-// import { db } from '@/lib/db'
-
 export async function POST(request: Request) {
   try {
     const body = await request.json()
     const { title, description, category, tags } = body
-
-    // Здесь должна быть логика сохранения гайда в базу данных
-    // const newGuide = await db.guide.create({ data: { title, description, category, tags } })
 
     // Имитация задержки сервера
     await new Promise((resolve) => setTimeout(resolve, 1000))

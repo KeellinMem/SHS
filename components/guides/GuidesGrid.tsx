@@ -4,11 +4,8 @@ import { useQuery } from "@tanstack/react-query"
 import { motion } from "framer-motion"
 import GuideCard from "./GuideCard"
 
+// Имитация функции fetchGuides
 async function fetchGuides() {
-  // В реальном приложении здесь будет запрос к API
-  // const response = await fetch('/api/guides')
-  // return response.json()
-
   // Имитация задержки загрузки
   await new Promise((resolve) => setTimeout(resolve, 1000))
 
@@ -18,7 +15,7 @@ async function fetchGuides() {
       id: 1,
       title: "Основы экономики в HOI4",
       description: "Узнайте, как эффективно построить вашу страну.",
-      thumbnail: "/images/guide-economy.jpg",
+      thumbnail: "/placeholder.svg",
       views: 1500,
       likes: 320,
       rating: 4.5,

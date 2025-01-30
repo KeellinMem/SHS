@@ -9,17 +9,17 @@ const topGuides = [
   {
     id: 1,
     title: "Абуз морбобров",
-    image: "/images/top-guide-1.jpg",
+    image: "/placeholder.svg",
   },
   {
     id: 2,
     title: "Секреты воздушного превосходства",
-    image: "/images/top-guide-2.jpg",
+    image: "/placeholder.svg",
   },
   {
     id: 3,
     title: "Искусство дипломатии в HOI4",
-    image: "/images/top-guide-3.jpg",
+    image: "/placeholder.svg",
   },
 ]
 
